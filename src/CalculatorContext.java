@@ -20,7 +20,7 @@ public class CalculatorContext {
         observer.updateResult(result);
     }
 
-    private CalculatorConfiguration configuration;;
+    private CalculatorConfiguration configuration;
 
     public void setConfiguration(CalculatorConfiguration configuration) {
         this.configuration = configuration;

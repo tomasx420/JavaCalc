@@ -7,7 +7,7 @@ public class OperationFactory {
 
     public OperationFactory(CalculatorConfiguration configuration) {
         operations = new HashMap<>();
-        // Instead of creating new operations every time, we store them in a map
+        // store operations in a map
         operations.put("+", new AddOperation(configuration));
         operations.put("-", new SubtractOperation(configuration));
         operations.put("*", new MultiplyOperation(configuration));
@@ -15,7 +15,7 @@ public class OperationFactory {
     }
 
     public Operation createOperation(String operationType) {
-        // When an operation is requested, we return the operation from the map
+        // when an operation requested - return operation from map
         return operations.get(operationType);
     }
 }
