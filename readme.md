@@ -2,6 +2,8 @@
 
 The Simple Calculator System is a console-based application that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The application is implemented in Java using desing patterns. The calculator also supports configurable precision for the results and the ability to disallow/allow negative results.
 
+### Repository Link: https://github.com/tomasx420/JavaCalc
+
 
 ## Instructions to run the calculator
 First clone the project (`https://github.com/tomasx420/JavaCalc`)
