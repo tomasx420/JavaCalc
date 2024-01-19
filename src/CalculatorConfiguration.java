@@ -1,3 +1,4 @@
+package src;
 public class CalculatorConfiguration {
     private final boolean allowNegativeResults;
     private final int resultPrecision;

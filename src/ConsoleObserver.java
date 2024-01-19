@@ -1,3 +1,4 @@
+package src;
 public class ConsoleObserver implements CalculatorObserver {
     @Override
     public void updateResult(double result) {

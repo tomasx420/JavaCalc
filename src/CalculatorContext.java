@@ -1,3 +1,4 @@
+package src;
 public class CalculatorContext {
     private Operation operation;
     private double firstNumber;
